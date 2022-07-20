@@ -21,7 +21,7 @@ x += 1
 if x > numberOfPrinters: 
     x = 1
 
-f = open(r".\printeri.txt", "w")
+f = open(r".\printers.txt", "w")
 f.write(str(x))
 
 #checks which printer needs to be switched to
